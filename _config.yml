@@ -1,26 +1,24 @@
 # Site settings
-title: Klise Theme # site title
+title: Jekyll Futbol # site title
 description: >- # site description
-  He's writing in Bahasa about web technology and experience as a journal 
-  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+ Jekyll Futbol Donde la Pasión por el Fútbol Encuentra su Hogar Digital <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
 lang: en-US # default lang
 timezone: Asia/Jakarta # set your timezone
-image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+image: assets/img/futbolo.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Jekyll Klisé # author name
+  name: Jekyll Futbol # author name
   bio: >- # tell to the world
-    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
-    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
-  username: username # general username
-  github: github_username # github username
-  twitter: twitter_username # twitter username
-  facebook: facebook_username # facebook username
-  email: your-email@email.com # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+    Jekyll Futbol nació de la convicción de que el fútbol es más que un simple deporte; es una pasión compartida que une a personas de todo el mundo. La idea detrás de la creación de Jekyll Futbol fue construir un espacio digital que ofreciera a los fanáticos de la UEFA Champions League una experiencia completa y enriquecedora.<a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
+  username: daavidpelaeez# general username
+  github: daavidpelaeez # github username
+  twitter: daavidpelaeez # twitter username
+  facebook: daavidpelaeez # facebook username
+  email: daavidpelaeez@email.com # email adress
+  avatar: /assets/img/futbolo.png # change with your own avatar
 
 # URL settings
 url: "https://klise.now.sh" #
