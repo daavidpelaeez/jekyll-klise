@@ -1,71 +1,29 @@
 ---
 layout: post
-title: Cara ribet memperbarui forked repo
+title: Veteranos de la Champions League
 date: 2020-01-29 01:00 +0700
 modified: 2020-03-07 16:49:47 +07:00
-description: Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
-tag:
-  - tips
-  - git
-  - software
-image: /cara-memperbarui-fork-repository/repo.png
+
 ---
 
-Berawal dari saya pengen memperbarui repo yang tua dari suatu organisasi, niatnya pengen rumat ulang nih, ternyata dari orginal reponya ada update, sekalian buat artikel deh, lebih kurang gambaranya seperti ini.
+La UEFA Champions League a lo largo de los años ha contado con la participación de jugadores veteranos que han dejado una marca indeleble en la competición. Estos futbolistas, a pesar de su experiencia y edad, han demostrado que la calidad y la clase no conocen límites. Aquí hay algunos jugadores veteranos que han dejado su huella en la Champions League:
 
-<figure>
-<img src="{{ page.image }}" alt="ilustrasi repo yang mau diupdate">
-<figcaption>Fig 1. Gambaran ribetnya.</figcaption>
-</figure>
+Cristiano Ronaldo (Manchester United):
 
-Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
+Aunque ha cambiado de club recientemente, Cristiano Ronaldo sigue siendo una figura destacada en la Champions League. Con múltiples títulos y goles cruciales en las etapas finales, su contribución a la competición es incomparable.
+Lionel Messi (Paris Saint-Germain):
 
-### Melalui Github (boring way) 💻
+Al igual que su eterno rival, Messi ha sido una fuerza constante en la Champions League. Con numerosos récords y actuaciones mágicas, el argentino sigue siendo un referente incluso en las etapas más avanzadas de su carrera.
+Andrés Iniesta (Vissel Kobe):
 
-1. Buka repo yang hasil fork di Github.
-1. Klik **Pull Requests** di sebelah kanan, lalu **New Pull Request**.
-1. Akan memunculkan hasil compare antara repo upstream dengan repo kamu(forked repo), dan jika menyatakan "There isn’t anything to compare.", tekan link **switching the base**, yang mana sekarang repo kamu(forked repo) akan dibalik menjadi base repo dan repo upstream menjadi head repo.
-1. Tekan **Create Pull Request**, beri judul pull request, Tekan **Send Pull Request**.
-1. Tekan **Merge Pull Request** dan **Confirm Merge**.
+Aunque actualmente juega en la J1 League japonesa, Iniesta dejó una marca imborrable con el FC Barcelona en la Champions League. Su visión, creatividad y habilidad técnica fueron fundamentales para el éxito del equipo.
+Zlatan Ibrahimović (AC Milan):
 
-\* _pastikan kamu tidak merubah apapun pada forked repo, supaya melakukan merge secara otomatis, kalo tidak ya paling2 konflik._
+El carismático delantero sueco ha participado en múltiples ediciones de la Champions League con diversos clubes, incluyendo el AC Milan. Su presencia en el campo y su capacidad para marcar goles le han convertido en una figura respetada en la competición.
+Gianluigi Buffon (Parma):
 
-### Melalui terminal ⌨️
+Aunque actualmente juega en el Parma, Buffon es una leyenda viviente del fútbol. Durante su tiempo en la Juventus, participó en varias finales de la Champions League y sigue siendo uno de los mejores porteros de la historia.
+Sergio Ramos (Paris Saint-Germain):
 
-Tambahkan remote alamat repository yang aslinya disini tak beri nama `upstream`., ganti `ORIGINAL_OWNER` dan `ORIGINAL_REPO` dengan alamat repo aslimu.
-
-```bash
-$ git add remote upstream git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git
-$ git remote -v
-> origin    git@github.com:piharpi/www.git (fetch) # forked repo
-> origin    git@github.com:piharpi/www.git (push) # forked repo
-> upstream    git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git (fetch) # upstream repo / original repo
-> upstream    git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git (push) # upstream repo / original repo
-```
-
-Checkout ke local branch `master`.
-
-```bash
-$ git checkout master
-> Switched to branch 'master'
-```
-
-Jika sudah, Merge local repo dengan remote `upstream/master`.
-
-```bash
-$ git merge upstream/master
-```
-
-Terakhir push local repo ke remote `origin`.
-
-```bash
-$ git add -A
-$ git commit -m "updating origin repo" && git push -u origin master
-```
-
-Selamat mencoba cara ribet ini, semoga bisa dipahami, saya sendiri lebih senang melalui terminal, klo ada yang ribet kenapa cari yang mudah.
-
-##### Resources
-
-- [Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
-- [Update your fork directly on Github](https://rick.cogley.info/post/update-your-forked-repository-directly-on-github/#top)
+Aunque ha cambiado de equipo recientemente, Ramos ha sido una figura clave en la defensa del Real Madrid durante años. Su liderazgo y capacidad para marcar goles importantes desde la defensa lo han convertido en una leyenda de la Champions League.
+Estos jugadores veteranos han sido testigos y protagonistas de momentos memorables en la historia de la Champions League, demostrando que la experiencia y la calidad pueden ser fundamentales en la búsqueda del éxito en la competición más prestigiosa de clubes en Europa.
