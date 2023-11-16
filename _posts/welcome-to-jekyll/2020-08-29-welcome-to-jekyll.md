@@ -1,34 +1,45 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Bienvenido a Jekyll-Futbol"
 date:   2020-08-29 09:29:20 +0700
 categories: jekyll update
-usemathjax: true
 ---
+¡En Jekyll Futbol, te sumergimos en el fascinante mundo de la UEFA Champions League a través de estadísticas que pintan el retrato completo de la competición más emocionante del fútbol europeo! Echa un vistazo a algunas cifras clave que definen la grandeza de la Champions League:
 
+1. Goleadores en la Edición Actual:
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Lionel Messi (Paris Saint-Germain): 8 goles
+Robert Lewandowski (Bayern de Múnich): 7 goles
+Cristiano Ronaldo (Manchester United): 6 goles
+2. Equipos con Más Tiros a Puerta:
 
+Real Madrid: 92 tiros
+Manchester City: 89 tiros
+Liverpool: 82 tiros
+3. Asistencias Principales:
 
-Jekyll requires blog post files to be named according to the following format:
+Kevin De Bruyne (Manchester City): 6 asistencias
+Joshua Kimmich (Bayern de Múnich): 5 asistencias
+Bruno Fernandes (Manchester United): 4 asistencias
+4. Promedio de Posesión:
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Barcelona: 65.3%
+Bayern de Múnich: 63.8%
+Manchester City: 62.1%
+5. Defensas Más Sólidas (Menos Goles Concedidos):
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Chelsea: 3 goles concedidos en 6 partidos
+Manchester City: 4 goles concedidos en 6 partidos
+Liverpool: 5 goles concedidos en 6 partidos
+6. Tarjetas Amarillas y Rojas:
 
-Jekyll also offers powerful support for code snippets:
+Ajax: 16 tarjetas amarillas, 0 tarjetas rojas
+Inter de Milán: 15 tarjetas amarillas, 1 tarjeta roja
+FC Porto: 14 tarjetas amarillas, 2 tarjetas rojas
+7. Promedio de Espectadores por Partido:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Estadio Santiago Bernabéu (Real Madrid): 76,000 espectadores (capacidad máxima)
+Old Trafford (Manchester United): 74,140 espectadores (capacidad máxima)
+Allianz Arena (Bayern de Múnich): 70,000 espectadores (capacidad máxima)
+Estas estadísticas ofrecen solo un vistazo a la intensidad y la competitividad de la UEFA Champions League. En Jekyll Futbol, nos enorgullece mantenerte informado con análisis detallados y actualizaciones en tiempo real para que no te pierdas ni un solo momento de la acción. ¡Prepárate para sumergirte más profundamente en el apasionante mundo de la Champions League con nosotros!
 
